@@ -30,6 +30,7 @@ import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
 import { Card } from '@/components/ui/card';
 import { Input } from '@/components/ui/input';
 import Link from 'next/link';
+import { ModeToggle } from './mode-toggle';
 
 // Define navigation items
 const navItems = [
@@ -313,13 +314,7 @@ export default function DashboardClient({ children }: { children: React.ReactNod
             {/* Header Right Section */}
             <div className="flex items-center gap-4">
               <Button variant="ghost" size="icon" className="relative">
-                <Bell className="h-5 w-5" />
-                <Badge 
-                  className="absolute -top-1 -right-1 h-5 w-5 p-0 flex items-center justify-center"
-                  variant="destructive"
-                >
-                  3
-                </Badge>
+                <ModeToggle />
               </Button>
               
               <Separator orientation="vertical" className="h-6" />
