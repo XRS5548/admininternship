@@ -131,11 +131,7 @@ export default function DashboardClient({ children }: { children: React.ReactNod
               >
                 <Icon className="mr-2 h-4 w-4" />
                 {item.name}
-                {item.badge && (
-                  <Badge variant="secondary" className="ml-auto">
-                    {item.badge}
-                  </Badge>
-                )}
+                
               </Button>
             );
           })}
@@ -233,11 +229,7 @@ export default function DashboardClient({ children }: { children: React.ReactNod
                     {sidebarOpen && (
                       <>
                         <span className="ml-2 truncate">{item.name}</span>
-                        {item.badge && (
-                          <Badge variant="secondary" className="ml-auto">
-                            {item.badge}
-                          </Badge>
-                        )}
+                        
                       </>
                     )}
                   </Button>
