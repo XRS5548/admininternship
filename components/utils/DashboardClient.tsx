@@ -43,25 +43,21 @@ const navItems = [
     name: 'Domains', 
     icon: Globe, 
     path: '/domains',
-    badge: 5
   },
   { 
     name: 'Internships', 
     icon: Briefcase, 
     path: '/internships',
-    badge: 12
   },
   { 
     name: 'Jobs', 
     icon: FileText, 
     path: '/jobs',
-    badge: 8
   },
   { 
     name: 'Payments', 
     icon: CreditCard, 
     path: '/payments',
-    badge: 3
   },
   { 
     name: 'Users', 
